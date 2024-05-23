@@ -1,11 +1,42 @@
-const Projects = {
-    Project1: {
+export const Projects = [
+    {
         title: '....',
         desc: '.....',
         techStack: '.....',
-        open: 'side for deployments',
-        link: 'githubpage',
+        open: 'site for deployments',
+        link: 'githubpageProject1',
         image: '../assets/....',
     },
-};
-export default Projects;
+    {
+        title: '....',
+        desc: '.....',
+        techStack: '.....',
+        open: 'site for deployments',
+        link: 'githubpageProject1',
+        image: '../assets/....',
+    },
+    {
+        title: '....',
+        desc: '.....',
+        techStack: '.....',
+        open: 'site for deployments',
+        link: 'githubpageProject1',
+        image: '../assets/....',
+    },
+    {
+        title: '....',
+        desc: '.....',
+        techStack: '.....',
+        open: 'site for deployments',
+        link: 'githubpageProject1',
+        image: '../assets/....',
+    },
+    {
+        title: '....',
+        desc: '.....',
+        techStack: '.....',
+        open: 'site for deployments',
+        link: 'githubpageProject1',
+        image: '../assets/....',
+    },
+];
