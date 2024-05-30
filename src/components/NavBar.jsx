@@ -3,9 +3,9 @@ import { FaGithub } from 'react-icons/fa';
 
 function NavBar() {
     return (
-        <nav className="bg-gray-900 fixed top-0 w-full">
+        <nav className="bg-rosePine-surface fixed top-0 w-full">
             <div className="container mx-auto flex justify-between items-center py-2 px-6">
-                <div className="flex flex-grow justify-center space-x-4 text-white">
+                <div className="flex flex-grow justify-center space-x-8 text-rosePine-text">
                     <a href="#intro" className="font-bold">
                         Intro
                     </a>
@@ -24,6 +24,8 @@ function NavBar() {
     );
 }
 
-const NavBarIcon = ({ icon }) => <div className="navbar-icon">{icon}</div>;
+const NavBarIcon = ({ icon }) => (
+    <div className="navbar-icon text-rosePine-text">{icon}</div>
+);
 
 export default NavBar;
