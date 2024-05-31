@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { CgMail } from 'react-icons/cg';
 
 function NavBar() {
     return (
@@ -9,23 +10,37 @@ function NavBar() {
                     <a href="#intro" className="font-bold">
                         Intro
                     </a>
-                    <a href="#about" className="font-bold">
+                    <a href="#about" className="font-bold" to="intro">
                         About
                     </a>
                     <a href="#projects" className="font-bold">
                         Projects
                     </a>
                 </div>
-                <div>
-                    <NavBarIcon icon={<FaGithub size="20" />} />
+                <div className="space-x-2 flex">
+                    <NavBarIcon
+                        icon={<FaGithub size="20" />}
+                        link="https://github.com/m0nztrum"
+                    />
+                    <NavBarIcon
+                        icon={<CgMail size="20" />}
+                        link="mailto:delafiado@gmail.com"
+                    />
                 </div>
             </div>
         </nav>
     );
 }
 
-const NavBarIcon = ({ icon }) => (
-    <div className="navbar-icon text-rosePine-text">{icon}</div>
+const NavBarIcon = ({ icon, link }) => (
+    <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navbar-icon text-rosePine-text"
+    >
+        {icon}
+    </a>
 );
 
 export default NavBar;
