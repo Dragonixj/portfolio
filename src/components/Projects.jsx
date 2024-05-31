@@ -7,7 +7,7 @@ function Projects() {
     return (
         <div id="projects">
             {/*header for section*/}
-            <div className="flex pb-[42px] w-[100vw]">
+            <div className="flex pb-[42px] w-full">
                 <span className="text-rosePine-pine text-[46px] font-bold">
                     projects
                 </span>
