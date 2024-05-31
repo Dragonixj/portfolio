@@ -15,6 +15,14 @@ const Projects = [
         link: 'https://github.com/m0nztrum/simple_shell',
         image: '../assets/....',
     },
+    {
+        title: 'portfolio',
+        desc: 'Personal portfolio website showcasing skills and projects',
+        techStack: 'Reactjs, tailwindcss, js',
+        open: 'site for deployments',
+        link: 'https://github.com/m0nztrum/portfolio',
+        image: '../assets/...',
+    },
 ];
 
 export default Projects;

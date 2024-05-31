@@ -5,17 +5,19 @@ import ExternalLinks from './ExternalLinks';
 
 function Projects() {
     return (
-        <div name="projects">
+        <div id="projects">
             {/*header for section*/}
-            <div>
-                <span>projects</span>
+            <div className="flex pb-[42px] w-[100vw]">
+                <span className="text-rosePine-pine text-[46px] font-bold">
+                    projects
+                </span>
             </div>
             {/*projects container*/}
             <div>
-                <ul className="grid grid-cols-3 gap-2 project-grid">
+                <ul className="grid grid-cols-3 auto-cols-min gap-2 project-grid">
                     {projects.map((key, i) => (
                         <li className="projects-card">
-                            <div className="-mt-[20px] flex py-[1.25rem] justify-between">
+                            <div className="-mt-[20px] flex py-5 px-0 justify-between !border-b-0">
                                 <div className="text-rosePine-foam">
                                     <MdFolderOpen
                                         style={{ fontSize: 35 }}
@@ -27,9 +29,15 @@ function Projects() {
                                 ></ExternalLinks>
                             </div>
 
-                            <div className="card-title">{key.title}</div>
-                            <div className="card-desc">{key.desc}</div>
-                            <div className="card-tech">{key.techStack}</div>
+                            <div className="text-rosePine-text text-2xl font-bold">
+                                {key.title}
+                            </div>
+                            <div className="text-rosePine-text text-lg pb-10">
+                                {key.desc}
+                            </div>
+                            <div className="text-rosePine-text text-base">
+                                {key.techStack}
+                            </div>
                         </li>
                     ))}
                 </ul>

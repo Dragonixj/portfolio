@@ -4,10 +4,10 @@
 
 @layer components {
     #projects {
-        @apply mx-auto pt-24 max-w-[1000px] min-h-[50vh]  bg-rosePine-surface rounded-custom-radius;
+        @apply mx-auto pt-[100px] max-w-[1000px] min-h-[50vh];
     }
 
     .projects-card {
-        @apply relative cursor-default flex flex-col h-full p-8 hover:bg-rosePine-highlightMed;
+        @apply relative cursor-default flex flex-col h-full py-8 px-7 bg-rosePine-overlay rounded-2xl hover:bg-rosePine-highlightMed hover:translate-y-[-7px];
     }
 }

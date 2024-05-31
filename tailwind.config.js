@@ -22,9 +22,6 @@ module.exports = {
                     highlightHigh: '#524f67',
                 },
             },
-            borderRadius: {
-                'custom-radius': '16px',
-            },
         },
     },
     plugins: [],
