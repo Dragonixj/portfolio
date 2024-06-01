@@ -8,6 +8,15 @@ const Projects = [
         image: '../assets/....',
     },
     {
+        title: 'AirBnB clone v4',
+        desc: 'An airbnb clone',
+        techStack: 'python, html,css',
+        open: 'site for deployments',
+        link: 'https://github.com/m0nztrum/AirBnB_clone_v4',
+        image: '../assets/....',
+
+    },
+    {
         title: 'Simple shell',
         desc: 'A simple unix shell using',
         techStack: 'C',

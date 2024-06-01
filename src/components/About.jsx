@@ -8,11 +8,11 @@ function About() {
         >
             <div className="flex pb-[42px] w-full">
                 <span className="text-rosePine-pine text-bold text-5xl">
-                    about
+                    About
                 </span>
             </div>
-            <div>
-                <p>I am very passionate about building excellent and cool</p>
+            <div className='text-4xl'>
+                <p>I am very passionate about building excellent and cool projects</p>
             </div>
         </div>
     );
