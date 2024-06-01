@@ -3,15 +3,6 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 
-@layer components {
-    #projects {
-        @apply w-full md:h-screen mx-auto pt-[100px] max-w-[1000px] min-h-[50vh];
-    }
-
-    .projects-card {
-        @apply relative cursor-default flex flex-col h-full py-8 px-7 bg-rosePine-overlay rounded-2xl hover:bg-rosePine-highlightMed hover:translate-y-[-7px];
-    }
-}
 
 @layer base {
     body {

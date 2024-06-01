@@ -5,7 +5,10 @@ import ExternalLinks from './ExternalLinks';
 
 function Projects() {
     return (
-        <div id="projects">
+        <div
+            id="projects"
+            className="w-full md:h-screen mx-auto pt-[100px] max-w-[1000px] min-h-[50vh]"
+        >
             {/*header for section*/}
             <div className="flex pb-[42px] w-full">
                 <span className="text-rosePine-pine text-5xl font-bold">
@@ -16,7 +19,8 @@ function Projects() {
             <div>
                 <ul className="grid grid-cols-3 auto-cols-min gap-2 project-grid">
                     {projects.map((key, i) => (
-                        <li className="projects-card">
+                        <li className="projects-card relative cursor-default flex flex-col h-full
+                                        py-8 px-7 bg-rosePine-overlay rounded-2xl hover:bg-rosePine-highlightMed hover:translate-y-[-7px]">
                             <div className="-mt-[20px] flex py-5 px-0 justify-between !border-b-0">
                                 <div className="text-rosePine-foam">
                                     <MdFolderOpen
