@@ -22,6 +22,9 @@ module.exports = {
                     highlightHigh: '#524f67',
                 },
             },
+            fontFamily: {
+                'single-day': ['"Single Day"', 'cursive'],
+            },
         },
     },
     plugins: [],
