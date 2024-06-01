@@ -13,6 +13,9 @@ function NavBar() {
                     <a href="#about" className="font-bold" to="intro">
                         About
                     </a>
+                    <a href="#skills" className="font-bold">
+                        Skills
+                    </a>
                     <a href="#projects" className="font-bold">
                         Projects
                     </a>

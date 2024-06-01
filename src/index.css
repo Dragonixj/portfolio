@@ -5,7 +5,7 @@
 
 @layer components {
     #projects {
-        @apply mx-auto pt-[100px] max-w-[1000px] min-h-[50vh];
+        @apply w-full md:h-screen mx-auto pt-[100px] max-w-[1000px] min-h-[50vh];
     }
 
     .projects-card {

@@ -8,7 +8,7 @@ function Projects() {
         <div id="projects">
             {/*header for section*/}
             <div className="flex pb-[42px] w-full">
-                <span className="text-rosePine-pine text-[46px] font-bold">
+                <span className="text-rosePine-pine text-5xl font-bold">
                     projects
                 </span>
             </div>
