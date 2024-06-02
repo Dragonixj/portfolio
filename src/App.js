@@ -1,7 +1,6 @@
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Intro from './components/Intro';
-import About from './components/About';
 import Credits from './components/Credits';
 import Skills from './components/Skills';
 
@@ -10,7 +9,6 @@ function App() {
         <div className="bg-rosePine-base">
             <NavBar />
             <Intro />
-            <About />
             <Skills />
             <Projects />
             <Credits />

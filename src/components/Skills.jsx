@@ -7,9 +7,19 @@ import {
     SiC,
     SiLinux,
     SiNeovim,
+    SiGit,
 } from 'react-icons/si';
 
 function Skills() {
+    const Skill = ({icon: Icon, name}) => {
+        return(
+            <div className="flex flex-col items-center">
+                <Icon  className="text-6xl"/>
+                <p className='text-xl mt-2'>{name}</p>
+            </div>
+        );
+    }
+    
     return (
         <div id="skills" className="w-full h-screen text-rosePine-text">
             {/* section header */}
@@ -23,16 +33,17 @@ function Skills() {
                     </p>
                 </div>
 
-                <div className="text-6xl w-full grid grid-cols-5 sm:grid-cols-5 gap-4 text-center">
-                    <div><SiTailwindcss /></div>
-                    <div><SiJavascript /></div>
-                    <div><SiPython /></div>
-                    <div><SiC /></div>
-                    <div><FaReact /></div>
-                    <div><FaCss3 /></div>
-                    <div><FaHtml5 /></div>
-                    <div><SiLinux /></div>
-                    <div><SiNeovim /></div>
+                <div className="w-full grid grid-cols-2 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-5 text-center">
+                    <Skill icon={SiTailwindcss} name="Tailwindcss"/>
+                    <Skill icon={SiJavascript} name="Javascript" />
+                    <Skill icon={SiPython} name="Python" />
+                    <Skill icon={SiC} name="C" />
+                    <Skill icon={FaReact} name="React" />
+                    <Skill icon={FaCss3} name="Css" />
+                    <Skill icon={FaHtml5} name="Html" />
+                    <Skill icon={SiLinux} name="Linux" />
+                    <Skill icon={SiNeovim} name="Neovim" />
+                    <Skill icon={SiGit} name="Git" />
                 </div>
             </div>
         </div>
