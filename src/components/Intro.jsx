@@ -11,6 +11,7 @@ function Intro() {
                         strings={[`<span class="text-rosePine-love">Elvis</span> here`]}
                         typeSpeed={100}
                         backDelay={70}
+                        smartBackspace={true}
                     />
                 </h1>
                 <h2 className="font-bold text-3xl sm:text-5xl text-rosePine-muted">
