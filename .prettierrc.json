@@ -6,5 +6,5 @@
     "tabWidth": 4,
     "spaceBeforeFunctionParen": true,
     "space-before-function-paren": ["error", "always"],
-    "space-before-blocks": ["error", "always"],
+    "space-before-blocks": ["error", "always"]
 }

@@ -11,8 +11,11 @@ function About() {
                     About
                 </span>
             </div>
-            <div className='text-4xl'>
-                <p>I am very passionate about building excellent and cool projects</p>
+            <div className="text-4xl">
+                <p>
+                    I am very passionate about building excellent and cool
+                    projects.
+                </p>
             </div>
         </div>
     );

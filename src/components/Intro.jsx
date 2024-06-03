@@ -8,7 +8,9 @@ function Intro() {
                 <p className="text-4xl">Hey It's</p>
                 <h1 className="font-bold text-4xl sm:text-7xl">
                     <ReactTyped
-                        strings={[`<span class="text-rosePine-love">Elvis</span> here`]}
+                        strings={[
+                            `<span class="text-rosePine-love">Elvis</span> here`,
+                        ]}
                         typeSpeed={100}
                         backDelay={70}
                         smartBackspace={true}

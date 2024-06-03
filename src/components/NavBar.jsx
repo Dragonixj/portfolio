@@ -10,7 +10,7 @@ function NavBar() {
                     <a href="#intro" className="font-bold">
                         Intro
                     </a>
-        {/*<a href="#about" className="font-bold" to="intro">
+                    {/*<a href="#about" className="font-bold" to="intro">
                         About
                     </a> */}
                     <a href="#skills" className="font-bold">
