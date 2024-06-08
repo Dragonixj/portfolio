@@ -7,21 +7,20 @@ function Projects() {
     return (
         <div
             id="projects"
-            className="w-full md:h-screen mx-auto pt-[100px] max-w-[1000px] min-h-[50vh]"
+            className="mx-auto min-h-[50vh] w-full max-w-[1000px] pt-[100px] md:h-screen"
         >
             {/*header for section*/}
-            <div className="flex pb-[42px] w-full">
-                <span className="text-rosePine-pine text-5xl font-bold">
+            <div className="flex w-full pb-[42px]">
+                <span className="text-5xl font-bold text-rosePine-pine">
                     projects
                 </span>
             </div>
             {/*projects container*/}
             <div>
-                <ul className="grid grid-cols-3 auto-cols-min gap-2 project-grid">
+                <ul className="project-grid grid auto-cols-min grid-cols-3 gap-2">
                     {projects.map((key, i) => (
-                        <li className="projects-card relative cursor-default flex flex-col h-full
-                                        py-8 px-7 bg-rosePine-overlay rounded-2xl hover:bg-rosePine-highlightMed hover:translate-y-[-7px]">
-                            <div className="-mt-[20px] flex py-5 px-0 justify-between !border-b-0">
+                        <li className="projects-card relative flex h-full cursor-default flex-col rounded-2xl bg-rosePine-overlay px-7 py-8 hover:translate-y-[-7px] hover:bg-rosePine-highlightMed">
+                            <div className="-mt-[20px] flex justify-between !border-b-0 px-0 py-5">
                                 <div className="text-rosePine-foam">
                                     <MdFolderOpen
                                         style={{ fontSize: 35 }}
@@ -33,13 +32,13 @@ function Projects() {
                                 ></ExternalLinks>
                             </div>
 
-                            <div className="text-rosePine-text text-2xl font-bold">
+                            <div className="text-2xl font-bold text-rosePine-text">
                                 {key.title}
                             </div>
-                            <div className="text-rosePine-text text-lg pb-10">
+                            <div className="pb-10 text-lg text-rosePine-text">
                                 {key.desc}
                             </div>
-                            <div className="text-rosePine-text text-base">
+                            <div className="text-base text-rosePine-text">
                                 {key.techStack}
                             </div>
                         </li>

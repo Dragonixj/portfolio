@@ -4,8 +4,8 @@ import { CgMail } from 'react-icons/cg';
 
 function NavBar() {
     return (
-        <nav className="bg-rosePine-surface fixed top-0 w-full">
-            <div className="container mx-auto flex justify-between items-center py-2 px-6">
+        <nav className="fixed top-0 w-full bg-rosePine-surface">
+            <div className="container mx-auto flex items-center justify-between px-6 py-2">
                 <div className="flex flex-grow justify-center space-x-8 text-rosePine-text">
                     <a href="#intro" className="font-bold">
                         Intro
@@ -20,7 +20,7 @@ function NavBar() {
                         Projects
                     </a>
                 </div>
-                <div className="space-x-2 flex">
+                <div className="flex space-x-2">
                     <NavBarIcon
                         icon={<FaGithub size="20" />}
                         link="https://github.com/m0nztrum"

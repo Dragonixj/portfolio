@@ -4,10 +4,10 @@ function About() {
     return (
         <div
             id="about"
-            className="w-full h-screen mx-auto pt-[100px] max-w-[1000px] min-h-[50vh] text-rosePine-rose"
+            className="mx-auto h-screen min-h-[50vh] w-full max-w-[1000px] pt-[100px] text-rosePine-rose"
         >
-            <div className="flex pb-[42px] w-full">
-                <span className="text-rosePine-pine text-bold text-5xl">
+            <div className="flex w-full pb-[42px]">
+                <span className="text-bold text-5xl text-rosePine-pine">
                     About
                 </span>
             </div>
