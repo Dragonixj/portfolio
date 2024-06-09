@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ReactTyped } from 'react-typed';
 
 function Intro() {

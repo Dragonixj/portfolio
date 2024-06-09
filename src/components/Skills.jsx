@@ -13,7 +13,7 @@ import {
 function Skills() {
     const Skill = ({ icon: Icon, name }) => {
         return (
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center transition-transform duration-150 hover:scale-125">
                 <Icon className="text-6xl" />
                 <p className="mt-2 text-xl">{name}</p>
             </div>
