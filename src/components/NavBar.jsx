@@ -6,7 +6,7 @@ function NavBar() {
     return (
         <nav className="fixed top-0 w-full bg-rosePine-surface">
             <div className="container mx-auto flex items-center justify-between px-6 py-2">
-                <div className="flex flex-grow justify-center space-x-8 text-rosePine-text">
+                <div className="flex flex-grow cursor-pointer justify-center space-x-8 text-rosePine-text">
                     <a href="#intro" className="font-bold">
                         Intro
                     </a>

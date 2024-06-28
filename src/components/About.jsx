@@ -13,8 +13,9 @@ function About() {
             </div>
             <div className="text-4xl">
                 <p>
-                    I am very passionate about building excellent and cool
-                    projects.
+                    I am a tech and software enthusiast passionate about
+                    learning and coding. I enjoy learning new things and facing
+                    unfamiliar challenges.
                 </p>
             </div>
         </div>
