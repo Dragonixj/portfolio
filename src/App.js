@@ -11,7 +11,7 @@ function App() {
             <Intro />
             <Skills />
             <Projects />
-            <Credits />
+            {/*<Credits />*/}
         </div>
     );
 }
